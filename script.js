@@ -1,6 +1,6 @@
 console.log("Скрипт успешно подключен с GitHub!");
 
-// Пример простой функции для тестирования
-function testFunction() {
+// Делаем функцию глобальной, привязывая её к window
+window.testFunction = function() {
     alert("Функция сработала!");
-}
+};
